@@ -3,5 +3,8 @@
 
 {% block content %}
 <h1>Home Page</h1>
-
+{% for product in product %}
+    {{product.title}}
+    ${{product.get_display_price}}
+{% endfor %}
 {% endblock content %}

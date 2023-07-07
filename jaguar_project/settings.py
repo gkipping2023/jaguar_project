@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'jaguar.apps.JaguarConfig',
+    'userprofile',
+    'store'
 ]
 
 MIDDLEWARE = [
